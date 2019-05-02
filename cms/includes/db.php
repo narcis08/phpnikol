@@ -4,7 +4,7 @@
         'localhost',
         'root',
         '',
-        'lesson12'  //название б.д.
+        'lesson12'
     );
 
     if(!$connection) {

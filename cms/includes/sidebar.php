@@ -1,19 +1,4 @@
-<?php
-
-$sql1 = "SELECT * FROM categories ";
-$bloks = mysqli_query($connection, $sql1);
-if(!$bloks) {
-    echo "Запрос не удался";
-}
-
-?>
-
-
-
 <!-- Blog Sidebar Widgets Column -->
-
-
-
 <div class="col-md-4">
 
     <!-- Blog Search Well -->
@@ -34,26 +19,29 @@ if(!$bloks) {
     <div class="well">
         <h4>Blog Categories</h4>
         <div class="row">
-
-
             <div class="col-lg-6">
                 <ul class="list-unstyled">
-
-
-                    <?php
-                    foreach ($bloks as $blok) :
-                    ?>
-
-                    <li class="">
-                        <a href="blok.php?blok=<?= $blok['id']?>"><?= $blok['name']?></a>
+                    <li><a href="#">Category Name</a>
                     </li>
-
-
-                  <?php
-                  endforeach;
-                  ?>
-
-
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.col-lg-6 -->
+            <div class="col-lg-6">
+                <ul class="list-unstyled">
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
+                    <li><a href="#">Category Name</a>
+                    </li>
                 </ul>
             </div>
             <!-- /.col-lg-6 -->
