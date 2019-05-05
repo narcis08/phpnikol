@@ -1,11 +1,23 @@
 <?php
 
-
 include "../includes/db.php";
 include "includes/header.php";
 include "includes/nav.php";
-include "functions.php";
+include "functions.php"; // now()
 
+    if(isset($_POST['store'])) {
+        $title = htmlspecialchars($_POST['title']);
+        $author = htmlspecialchars($_POST['author']);
+        $created_at = htmlspecialchars($_POST['created_at']);
+        $content = htmlspecialchars($_POST['content']);
+        $image = $_FILES['image']['name'];
+//        $image = htmlspecialchars($_POST['image']);
+
+        $sql_create = "INSERT INTO posts(title, author, created_at, content, image, cat_id) VALUES ('{$title}', '{$author}', now(), '{$content}', '{$image}', 1)";
+        $create_result = mysqli_query($connection, $sql_create);
+        confirmQuery($create_result);
+
+    }
 ?>
 
 <div id="page-wrapper">
@@ -29,39 +41,18 @@ include "functions.php";
                 </ol>
             </div>
 
-            <div class="col-md-12">
-                <table class="table table-hover table-striped">
-                    <thead>
-                    <tr>
-                        <th>id</th>
-                        <th>Имя</th>
-                        <th>Картинка</th>
-                        <th>Управления</th>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <?php
+            <form action="" method="post"  enctype="multipart/form-data">
+                <input type="text" name="title" class="form-control" placeholder="title">
+                <input type="text" name="author" class="form-control" placeholder="author">
+                <input type="text" name="created_at" class="form-control" placeholder="created">
+                <input type="text" name="content" class="form-control" placeholder="content">
+                <input type="file" name="image" class="form-control" placeholder="image">
+                <input type="text" name="cat_id" class="form-control" placeholder="cat">
 
-                    $sql = "SELECT * FROM posts";
-                    $result = mysqli_query($connection, $sql);
-                    confirmQuery($result);
-                    foreach ($result as $post) :
+                <input type="submit" name="store" value="Создать">
+            </form>
 
-                        ?>
 
-                        <tr>
-                            <td><?=$post['id']?></td>
-                            <td><?=$post['title']?></td>
-                            <td>
-                                <a href=""=<?=$post['image']?>" class="btn btn-primary"> </a>
-
-                            </td>
-                        </tr>
-
-                    <?php endforeach;?>
-                    </tbody>
-                </table>
-            </div>
         </div>
         <!-- /.row -->
 
@@ -78,5 +69,4 @@ include "functions.php";
 
 include "includes/footer.php";
 ?>
-
 

@@ -4,7 +4,7 @@
         'localhost',
         'root',
         '',
-        'lesson12'
+        'cw0505'
     );
 
     if(!$connection) {
