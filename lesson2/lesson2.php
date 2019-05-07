@@ -89,8 +89,10 @@
  <?php } ?>
  
 <!--5.Написать скрипт вывода формы,в котором задействовать подключение конструкци require_once;-->
+
+
     <?php
-    require_once ();
+    require_once 'echo.php';
     ?>
 
 
@@ -99,19 +101,13 @@
   Решите задачу через 2 if, через switch-case.*/?>
  
     <?php
-    
-   
+$arr = ['понедельник','вторник','среда','четверг','пятница','суббота','воскресенье'];
+$arr1 = ['monday','tuesday','wednesday','thursday','friday','saturday','sunday'];
 
-   
-$arr = ["понедельник","вторник","среда","четверг","пятница","суббота","воскресенье"]; 
-$arr1 =["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
-
-
-
-   
+   $lang = 'ru';
     switch($lang){
     case 'ru':
-    if($lang='ru'){
+    if($lang = 'ru'){
      echo $arr;
           }
           break;
@@ -120,15 +116,15 @@ $arr1 =["monday","tuesday","wednesday","thursday","friday","saturday","sunday"];
            echo $arr1;
        }
           break;
-     
-      default:
-      echo "Ошибка!";
-  }
-   
 
+      default:
+        echo "Ошибка!";
+        break;
+  }
 echo "<br>";
     ?>
 
+//подскажите ошибку в 6-ой задаче. запуталась...
 
 
 
