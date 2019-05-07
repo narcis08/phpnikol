@@ -1,0 +1,4 @@
+<?php
+rmdir('four');
+
+?>
