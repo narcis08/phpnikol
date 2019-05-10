@@ -6,9 +6,12 @@
 
 $texts = 'Laremg ipsum dolor sit amet, consectetur 
 adipisicing elit. Consequatur cum, minus mollitia suscipit voluptas voluptatum!';
-$rest = substr($texts,0,10);
-$array = ['a', 'g'];
-echo str_replace($array, '_', $rest);
+if (strlen($texts)>10) {
+    $rest = substr($texts,0,10);
+    $array = ['a', 'g'];
+    echo str_replace($array, '_', $rest);
+};
+
 
 
 
