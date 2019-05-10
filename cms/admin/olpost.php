@@ -63,14 +63,26 @@ include "functions.php";
                        name="title"
                        class="form-control"
                        value="<?=$post['title']?>">
-                <input type="text" name="author" class="form-control"
+                <input type="text"
+                       name="author"
+                       class="form-control"
                        value="<?=$post['author']?>">
-                <input type="text" name="created_at" class="form-control"
+                <input type="text"
+                       name="created_at"
+                       class="form-control"
                        value="<?=$post['created_at']?>">
-                <input type="text" name="content" class="form-control"
+                <input type="text"
+                       name="content"
+                       class="form-control"
                        value="<?=$post['content']?>">
-                <input type="text" name="image" class="form-control"
+                <input type="text"
+                       name="image"
+                       class="form-control"
                        value="<?=$post['image']?>">
+                <input type="text"
+                       name="cat_id"
+                       class="form-control"
+                       value="<?=$post['cat_id']?>">
                 
 
                 <input type="submit" class="btn btn-success" name="update" value="Редактировать">
@@ -81,12 +93,15 @@ include "functions.php";
 
             }
            if(isset($_POST['update'])) {
+               $id = htmlspecialchars($_POST['id']);
                $title = htmlspecialchars($_POST['title']);
                $author = htmlspecialchars($_POST['author']);
                $created_at = htmlspecialchars($_POST['created_at']);
                $content = htmlspecialchars($_POST['content']);
                $image = $_FILES['image']['name'];
-               $update_sql = "UPDATE posts SET name='{$title}', '{$author}', now(), '{$content}', '{$image}', 1 WHERE id = $id";
+               $cat_id = htmlspecialchars($_POST['cat_id']);
+               $update_sql = "UPDATE posts SET name='{$title}', '{$author}', now(),
+               '{$content}', '{$image}', 1 WHERE id = $id";
                $upd_result = mysqli_query($connection, $update_sql);
                confirmQuery($upd_result);
 
@@ -126,8 +141,9 @@ include "functions.php";
                             <td><?=$post['created_at']?></td>
                             <td><?=$post['content']?></td>
                             <td><?=$post['image']?></td>
+                            <td><?=$post['cat_id']?></td>
                             <td>
-                                <a href="olposts.php?update=<?=$post['id']?>" class="btn btn-primary">
+                                <a href="olpost.php?update=<?=$post['id']?>" class="btn btn-primary">
                                     Редактировать
                                 </a>
                                 <a
@@ -147,16 +163,16 @@ include "functions.php";
 
             </div>
         </div>
-        <!-- /.row -->
+
 
     </div>
-    <!-- /.container-fluid -->
+
 
 </div>
-<!-- /#page-wrapper -->
+
 
 </div>
-<!-- /#wrapper -->
+
 
 <?php
 

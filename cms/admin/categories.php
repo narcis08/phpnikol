@@ -82,9 +82,11 @@ include "functions.php";
                                    name="name"
                                    class="form-control"
                             value="<?=$category['name']?>">
-                            <input type="text" name="code" class="form-control"
+                            <input type="text" name="code"
+                                   class="form-control"
                                    value="<?=$category['code']?>">
-                            <input type="submit" class="btn btn-success" name="update" value="Редактировать">
+                            <input type="submit" class="btn btn-success"
+                                   name="update" value="Редактировать">
                         </form>
 
                 <?php
@@ -126,7 +128,8 @@ include "functions.php";
                             <td><?=$category['id']?></td>
                             <td><?=$category['name']?></td>
                             <td>
-                                <a href="categories.php?update=<?=$category['id']?>" class="btn btn-primary">Редактировать</a>
+                                <a href="categories.php?update=<?=$category['id']?>"
+                                   class="btn btn-primary">Редактировать</a>
                                 <a
                                         href="categories.php?delete=<?=$category['id']?>"
                                         class="btn btn-danger"

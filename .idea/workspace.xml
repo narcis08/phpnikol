@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="52fda9ab-6163-4c35-a93c-5202a437b259" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/lesson2/lesson2.php" beforeDir="false" afterPath="$PROJECT_DIR$/lesson2/lesson2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cms/admin/olpost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cms/admin/olpost.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,11 +14,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lesson2/lesson2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2772">
+            <state relative-caret-position="460">
               <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cms/admin/olpost.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3594">
+              <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/admin/create-post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cms/admin/categories.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="880">
+              <caret line="100" column="102" selection-start-line="100" selection-start-column="102" selection-end-line="100" selection-end-column="102" />
             </state>
           </provider>
         </entry>
@@ -56,10 +85,13 @@
         <option value="$PROJECT_DIR$/lesson2.php" />
         <option value="$PROJECT_DIR$/lesson2/echo.php" />
         <option value="$PROJECT_DIR$/lesson2/lesson2.php" />
+        <option value="$PROJECT_DIR$/cms/admin/create-post.php" />
+        <option value="$PROJECT_DIR$/cms/admin/categories.php" />
+        <option value="$PROJECT_DIR$/cms/admin/olpost.php" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="1384" />
@@ -70,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -80,18 +113,18 @@
             <path>
               <item name="phpnikol" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpnikol" type="462c0819:PsiDirectoryNode" />
-              <item name="les3103" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="phpnikol" type="b2602c69:ProjectViewProjectNode" />
               <item name="phpnikol" type="462c0819:PsiDirectoryNode" />
-              <item name="lesson2" type="462c0819:PsiDirectoryNode" />
+              <item name="cms" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -126,16 +159,18 @@
       <workItem from="1556206811044" duration="729000" />
       <workItem from="1557251652044" duration="599000" />
       <workItem from="1557252631491" duration="2878000" />
+      <workItem from="1557498713099" duration="3776000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8708000" />
+    <option name="totallyTimeSpent" value="12484000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
+    <frame x="-9" y="-9" width="1384" height="736" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1292049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21669106" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -165,15 +200,13 @@
     <entry file="file://Z:/Web 2-2018/PHP/lesson_9/additional.php" />
     <entry file="file://$PROJECT_DIR$/1804/cw1804.php" />
     <entry file="file://$PROJECT_DIR$/lesson_12/cms/post.php" />
-    <entry file="file://$PROJECT_DIR$/lesson2.php">
+    <entry file="file://$PROJECT_DIR$/lesson2.php" />
+    <entry file="file://$PROJECT_DIR$/lesson2/lesson2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2024">
-          <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
+        <state relative-caret-position="460">
+          <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/les3103/les3103.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/lesson2/echo.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -182,10 +215,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lesson2/lesson2.php">
+    <entry file="file://$PROJECT_DIR$/les3103/les3103.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/create-post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2772">
-          <caret line="126" column="48" selection-start-line="126" selection-start-column="48" selection-end-line="126" selection-end-column="48" />
+        <state relative-caret-position="352">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/categories.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="100" column="102" selection-start-line="100" selection-start-column="102" selection-end-line="100" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cms/admin/olpost.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3594">
+          <caret line="165" column="6" selection-start-line="165" selection-start-column="6" selection-end-line="165" selection-end-column="6" />
         </state>
       </provider>
     </entry>
