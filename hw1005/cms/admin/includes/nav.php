@@ -133,6 +133,14 @@
             </li>
 
 
+            <li>
+                <a href="user.php">
+                    <i class="fa fa-fw fa-dashboard"></i>
+                   Пользователи
+                </a>
+            </li>
+
+
         </ul>
     </div>
     <!-- /.navbar-collapse -->

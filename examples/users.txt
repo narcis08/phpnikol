@@ -1,0 +1,4 @@
+alex:email@rambler.ru:alexLogin:+37529111111:Коротко о себе:img.jpg
+dima:email@rambler.ru:dimaLogin:+37529111111:Коротко о себе:img1.png
+sasha:email@rambler.ru:sashaLogin:+37529111111:Коротко о себе:img.jpg
+sasha1:email@rambler.ru:sasha1Login:+37529111111:Коротко о себе:img1.png
