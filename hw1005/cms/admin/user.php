@@ -63,7 +63,7 @@ include "functions.php";
                             <td><?=$user['login']?></td>
                             <td><?=$user['password']?></td>
 
-
+ </tr>
 
 
                     <?php endforeach;?>

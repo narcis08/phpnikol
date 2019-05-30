@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63b669f8-f7e3-4b33-97a5-5a6e4903892f" name="Default" comment="">
+    <list default="true" id="b8bb0e0e-9818-4c83-9cc9-229c00f502a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../hw1005/cms/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1005/cms/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw1005/cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1005/cms/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../hw1005/cms/admin/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1005/cms/admin/user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lesson17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson17/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../yeticave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yeticave/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,18 +16,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-44">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="154">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Employee.php">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/useries.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="242">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -38,7 +42,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/classes/Employee.php" />
+        <option value="$PROJECT_DIR$/userss.php" />
+        <option value="$PROJECT_DIR$/db.php" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -46,9 +51,10 @@
   <component name="ProjectConfigurationFiles">
     <option name="files">
       <list>
+        <option value="$PROJECT_DIR$/.idea/hw290519.iml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
         <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/../hw290519/.idea/hw290519.iml" />
-        <option value="$PROJECT_DIR$/../hw2805/.idea/hw2805.iml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
       </list>
     </option>
   </component>
@@ -68,8 +74,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="lesson17" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lesson17" type="462c0819:PsiDirectoryNode" />
+              <item name="hw290519" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hw290519" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -81,6 +87,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -99,26 +107,26 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="63b669f8-f7e3-4b33-97a5-5a6e4903892f" name="Default" comment="" />
-      <created>1558887500382</created>
+      <changelist id="b8bb0e0e-9818-4c83-9cc9-229c00f502a5" name="Default Changelist" comment="" />
+      <created>1559155336208</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1558887500382</updated>
-      <workItem from="1558887501848" duration="5325000" />
-      <workItem from="1559154610271" duration="3327000" />
-      <workItem from="1559212993416" duration="2912000" />
+      <updated>1559155336208</updated>
+      <workItem from="1559155337357" duration="4623000" />
+      <workItem from="1559213019157" duration="3300000" />
+      <workItem from="1559221026612" duration="603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11564000" />
+    <option name="totallyTimeSpent" value="8526000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
-      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -127,12 +135,12 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
@@ -142,16 +150,19 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/classes/Employee.php" />
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/useries.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-44">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+        <state relative-caret-position="242">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Employee.php">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
