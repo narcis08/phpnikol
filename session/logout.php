@@ -1,24 +1,8 @@
 <?php
 session_start();
-/*$visit_count = 1;
-
-  if (isset($_SESSION['visit_count'])) {
-      $visit_count = $_SESSION['visit_count'] + 1;
-
-  }
-  $_SESSION['visit_count'] = $visit_count;
-
-echo $visit_count;
-
-1.по заходу на страницу запишите в сессию текст 'test'. «атем обновите страницу и выведите содержимое сессии на экран.
-
-$_SESSION['name'] = 'Vasya';
-
-echo "Hello";*/
-
 
 $_SESSION['name'] = [];
-
+header('Location: session.php');
 
 
 ?>
