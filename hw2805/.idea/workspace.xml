@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90730b1d-a8d7-49b2-9da8-cc7f5459833f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../hw1005/cms/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1005/cms/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1005/cms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1005/cms/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../hw1005/cms/admin/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/../hw1005/cms/admin/user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../lesson17/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lesson17/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yeticave/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yeticave/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +80,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../hw290519" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -111,16 +108,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559219335146</updated>
-      <workItem from="1559219336282" duration="2094000" />
+      <workItem from="1559219336282" duration="2289000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2094000" />
+    <option name="totallyTimeSpent" value="2289000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1384" height="736" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
